@@ -1,2 +1,37 @@
 /* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* slider style start  */
+.img-wrapper-1,
+.img-wrapper-2,
+.img-wrapper-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 584px;
+}
+.img-wrapper-1 {
+  background-image: url(images/banner.png);
+}
+.img-wrapper-2 {
+  background-image: url(images/rsz_slide-1.jpg);
+}
+.img-wrapper-3 {
+  background-image: url(images/banner.png);
+}
+.slider-title {
+  font-size: 48px;
+  line-height: 58px;
+}
+/* slider style end  */
+
+/* pricious style start  */
+.right-icon {
+  font-size: 12px;
+}
+/* pricious style end */

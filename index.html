@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Convention Center</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -26,6 +26,183 @@
     />
   </head>
   <body>
+    <!-- header section start  -->
+    <header>
+      <!-- navbar start  -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Florida Convention Center</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-bold">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- slider section start  -->
+      <section class="slider-section">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="img-wrapper-1"></div>
+              <div class="carousel-caption d-md-block">
+                <h5 class="slider-title fw-bold">
+                  The perfect venue for your next event
+                </h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+                <button class="btn btn-light px-5 py-2 text-info my-4">
+                  Book Now
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="img-wrapper-2"></div>
+              <div class="carousel-caption d-md-block">
+                <h5 class="slider-title fw-bold">Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+                <button class="btn btn-light px-5 py-2 text-info my-4">
+                  Book Now
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="img-wrapper-3"></div>
+              <div class="carousel-caption d-md-block">
+                <h5 class="slider-title fw-bold">Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+                <button class="btn btn-light px-5 py-2 text-info my-4">
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- slider section start  -->
+    </header>
+    <!-- header section end  -->
+    <main>
+      <!-- Precious section start  -->
+      <section class="precious-section container py-5">
+        <div class="row gx-5">
+          <div class="col-lg-6">
+            <div class="pricious-img-wrap">
+              <img src="images/wedding.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="pricious-content-wrap d-flex align-items-center h-100">
+              <div>
+                <h2>Every moment is Precious</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, aut. Veritatis excepturi cumque voluptas enim
+                  ab ullam molestias officiis sit!
+                </p>
+                <button class="btn btn-info px-5 py-2 text-light my-2">
+                  Book Now
+                  <i class="fas fa-arrow-right right-icon ms-2"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- toast  -->
+          <div
+            class="toast align-items-center"
+            role="alert"
+            aria-live="assertive"
+            aria-atomic="true"
+          >
+            <div class="d-flex">
+              <div class="toast-body">
+                Hello, world! This is a toast message.
+              </div>
+              <button
+                type="button"
+                class="btn-close me-2 m-auto"
+                data-bs-dismiss="toast"
+                aria-label="Close"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Precious section end -->
+    </main>
+
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
