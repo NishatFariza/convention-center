@@ -1,5 +1,7 @@
 /* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+/* font-family: 'Roboto', sans-serif; */
 
 body {
   font-family: "Poppins", sans-serif;
@@ -35,3 +37,15 @@ body {
   font-size: 12px;
 }
 /* pricious style end */
+
+/* package section style start  */
+.check-icon-wrap {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(82, 67, 194, 0.103693);
+  border-radius: 50px;
+}
+.check-icon-wrap i {
+  font-size: 11px;
+}
+/* package section style start  */
