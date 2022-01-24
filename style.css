@@ -24,14 +24,15 @@ body {
   background-image: url(images/banner.png);
 }
 .img-wrapper-2 {
-  background-image: url(images/rsz_slide-1.jpg);
+  background-image: url(images/cake.jpg);
 }
 .img-wrapper-3 {
-  background-image: url(images/banner.png);
+  background-image: url(images/wedding.jpg);
 }
 .slider-title {
   font-size: 48px;
   line-height: 58px;
+  font-weight: 600;
 }
 /* slider style end  */
 
