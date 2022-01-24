@@ -178,14 +178,18 @@
       </div>
       <!-- toast  end-->
       <section class="precious-section container py-5">
-        <div class="row gx-5">
-          <div class="col-lg-6">
+        <div class="row g-5">
+          <div
+            class="col-lg-6 d-flex justify-content-center align-items-center"
+          >
             <div class="pricious-img-wrap">
               <img src="images/wedding.png" alt="" />
             </div>
           </div>
           <div class="col-lg-6">
-            <div class="pricious-content-wrap d-flex align-items-center h-100">
+            <div
+              class="pricious-content-wrap d-flex align-items-center h-100 text-center text-lg-start"
+            >
               <div>
                 <h2>Every moment is Precious</h2>
                 <p class="my-4">
@@ -209,7 +213,9 @@
           <h2 class="section-title text-center">Our package</h2>
         </div>
         <div class="row g-4 mt-5">
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center"
+          >
             <div class="card border-0">
               <div class="card-body pt-5">
                 <h5 class="card-title package-title-1">$300</h5>
@@ -272,7 +278,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center"
+          >
             <div class="card border-0">
               <div class="card-body pt-5">
                 <h5 class="card-title package-title-1">$500</h5>
@@ -335,7 +343,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center"
+          >
             <div class="card position-relative border-0">
               <div class="card-body package-card-3 shadow-lg border-0">
                 <h5 class="card-title package-title-1 text-light">$800</h5>
@@ -418,7 +428,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div
+            class="col-lg-3 col-md-6 d-flex justify-content-center align-items-center"
+          >
             <div class="card border-0">
               <div class="card-body pt-5">
                 <h5 class="card-title package-title-1">$1200</h5>
@@ -488,7 +500,7 @@
       <!-- faq section start  -->
       <section class="faq-section container py-5 mt-5">
         <div class="row g-5">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-6 order-2">
             <div class="accordion-content-left">
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -606,7 +618,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <div
+            class="col-lg-6 order-lg-2 d-flex justify-content-center align-items-center"
+          >
             <img src="images/people.png" alt="" />
           </div>
         </div>
@@ -614,87 +628,78 @@
       <!-- faq section end -->
 
       <!-- contact us section start -->
-      <section class="contact-us-section mt-3 py-5">
+      <section class="contact-us-section mt-3">
         <div
-          class="container contact-background d-flex align-items-center justify-content-center"
+          class="container contact-background d-flex flex-column align-items-center justify-content-center"
         >
-          <div class="form-wrap w-50">
-            <div class="title-wrap text-center">
-              <img class="-mt-5" src="images/icon.png" alt="" />
-              <h1 class="contact-title">Lets Celebrate Your Love</h1>
-            </div>
-            <div class="form-wrap mt-5">
-              <form class="row g-2 text-light">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" />
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label"
-                    >Password</label
-                  >
+        <h1 class=" text-light fs-3 fw-bold mt-3 bg-dark py-2 px-3 rounded">Lets Celebrate Your Love</h1>
+          <!-- <div class="title-wrap text-center">
+            <img class="-mt-5" src="images/icon.png" alt="" />
+            <h1 class="contact-title text-light">Lets Celebrate Your Love</h1>
+          </div> -->
+          <di class="form-wrap mb-5">
+            <form class="row g-3 text-white">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" />
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="1234 Main St"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress2"
+                  placeholder="Apartment, studio, or floor"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip" />
+              </div>
+              <div class="col-12">
+                <div class="form-check">
                   <input
-                    type="password"
-                    class="form-control"
-                    id="inputPassword4"
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
                   />
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
                 </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Address</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress"
-                    placeholder="1234 Main St"
-                  />
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label"
-                    >Address 2</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="inputAddress2"
-                    placeholder="Apartment, studio, or floor"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <label for="inputCity" class="form-label">City</label>
-                  <input type="text" class="form-control" id="inputCity" />
-                </div>
-                <div class="col-md-4">
-                  <label for="inputState" class="form-label text-light"
-                    >State</label
-                  >
-                  <select id="inputState" class="form-select choose-input">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Zip</label>
-                  <input type="text" class="form-control" id="inputZip" />
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      id="gridCheck"
-                    />
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <div class="col-12 text-center">
-                  <button type="submit" class="btn btn-info text-light">
-                    Get In Touch
-                  </button>
-                </div>
-              </form>
-            </div>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-info text-white">Submit</button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
@@ -705,43 +710,25 @@
     <!-- footer start -->
     <footer class="footer-section py-5 mt-5">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-md-6 col-sm-6 d-flex align-items-center">
-            <div class="copyright-text-wrap">
-              &COPY;2022bike. All rights reserved
-            </div>
+        <div class="row align-items-center text-center">
+          <div class="col-md-6 col-sm-12">
+            <small class="text-white">
+              &COPY;2022bike. All rights reserved</small
+            >
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="copyright-button-wrap w-50">
+          <div class="col-md-6 col-sm-12">
+            <div class="float-md-end">
               <h3 class="footer-title">Get the App</h3>
-              <div class="footer-button-wrpa">
-                <a
-                  class="text-decoration-none text-light d-flex align-items-center border border-light border-1 rounded-3 mt-3 justify-content-center"
-                  href="https://www.apple.com/store"
-                  target="_blank"
-                >
-                  <div class="footer-icon-wrap">
-                    <i class="fab fa-apple fs-4 me-3"></i>
-                  </div>
-                  <div class="footer-icon-wrap">
-                    <span class="download-text">Download on the</span>
-                    <h6 class="app-text">App Store</h6>
-                  </div>
-                </a>
-                <a
-                  class="text-decoration-none text-light d-flex justify-content-center align-items-center border border-light border-1 rounded-3 mt-3"
-                  href="https://play.google.com/store/apps"
-                  target="_blank"
-                >
-                  <div class="footer-icon-wrap">
-                    <i class="fab fa-google-play fs-4 me-3"></i>
-                  </div>
-                  <div class="footer-icon-wrap">
-                    <span class="download-text">GET IT ON</span>
-                    <h6 class="app-text">Google Play</h6>
-                  </div>
-                </a>
-              </div>
+              <a
+                class="google-btn"
+                href="https://www.apple.com/store"
+                target="_blank"
+              >
+                <img src="images/google.png" alt="" />
+              </a>
+              <a href="https://play.google.com/store/apps" target="_blank">
+                <img src="images/apple.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
