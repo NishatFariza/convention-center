@@ -3,9 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 
+/* common style start  */
 body {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
+/* common style end */
 
 /* slider style start  */
 .img-wrapper-1,
@@ -39,6 +42,37 @@ body {
 /* pricious style end */
 
 /* package section style start  */
+.section-title {
+  font-size: 38px;
+  line-height: 57px;
+  color: #0a0826;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.package-title-1,
+.package-title-2 {
+  color: #231d4f;
+}
+.package-title-1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.package-title-2 {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.package-discrip-wrap {
+  width: 90%;
+}
+.package-discription {
+  color: #848199;
+  font-size: 15px;
+  line-height: 22px;
+}
 .check-icon-wrap {
   width: 20px;
   height: 20px;
@@ -48,4 +82,20 @@ body {
 .check-icon-wrap i {
   font-size: 11px;
 }
-/* package section style start  */
+.package-icon-text {
+  color: #848199;
+  font-size: 15px;
+  line-height: 22px;
+}
+.package-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+.package-card-3 {
+  background-color: #3f87f5;
+  border-radius: 26px;
+  color: #231d4f;
+  /* box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25); */
+}
+/* package section style end  */
