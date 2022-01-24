@@ -99,3 +99,23 @@ body {
   /* box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25); */
 }
 /* package section style end  */
+
+/* footer section style start */
+.footer-section {
+  background-color: #0b0d17;
+}
+.copyright-text-wrap {
+  color: #d9dbe1;
+}
+.footer-title {
+  font-size: 18px;
+  color: #d9dbe1;
+}
+.download-text {
+  font-size: 10px;
+  color: #86878a;
+}
+.download-text {
+  font-size: 12px;
+}
+/* footer section style end */
